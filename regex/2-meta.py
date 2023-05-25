@@ -4,6 +4,7 @@ import re
 # | OU
 # . Qualquer caractere (com exceção da quebra de linha)
 # [] conjunto de caracteres
+# () grupos
 
 
 texto = '''
