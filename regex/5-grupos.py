@@ -33,3 +33,16 @@ for tag in tags2:
     print(dois)
     print(tres)
 
+# utilizar os ?: para dizer que não quer que salve este grupo:
+tags3 = re.findall(r'(<([dpiv]{1,3})>(?:.*?)<\/\2>)', texto)
+
+for tag in tags3:
+    print(tag)
+
+
+CPF = '147.852.001-55'
+print(re.findall(r'[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}', CPF))
+
+print(re.findall(r'([0-9]{3}\.){2}[0-9]{3}-[0-9]{2}', CPF))
+
+print(re.findall(r'(([0-9]{3}\.){2}[0-9]{3}-[0-9]{2})', CPF))

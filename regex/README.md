@@ -1,5 +1,7 @@
 # Regex Python
 
+Caso queria saber mais você pode acessar essa documentção __[REGEX PYTHON HOWTO](https://docs.python.org/pt-br/2.7/howto/regex.html#:~:text=Este%20documento%20%C3%A9%20um%20tutorial%20introdut%C3%B3rio%20sobre%20express%C3%B5es,que%20a%20se%C3%A7%C3%A3o%20correspondente%20%C3%A0%20documenta%C3%A7%C3%A3o%20do%20m%C3%B3dulo.)__.
+
 ## Metadados
 
 Existem alguns tipos de metadados e abaixo estão alguns e seus significados:
