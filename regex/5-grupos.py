@@ -46,3 +46,17 @@ print(re.findall(r'[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}', CPF))
 print(re.findall(r'([0-9]{3}\.){2}[0-9]{3}-[0-9]{2}', CPF))
 
 print(re.findall(r'(([0-9]{3}\.){2}[0-9]{3}-[0-9]{2})', CPF))
+
+# Substituindo valores:
+texto_tags = """
+    <p>Frase 1</p> <p>Frase 2</p> <p>Frase 3</p> <div>Frase 4</div>
+"""
+print(re.sub(r'(<(.+?)>)(.+?)(<\/\2>)', r'\1 \3 \4', texto_tags))
+
+# Output:
+# <p> Frase 1 </p> <p> Frase 2 </p> <p> Frase 3 </p> <div> Frase 4 </div>
+
+# Poderia ser personalizado:
+print(re.sub(r'(<(.+?)>)(.+?)(<\/\2>)', r'\1 MAIS \3 COISAS \4', texto_tags))
+# Output:
+# <p> MAIS Frase 1 COISAS </p> <p> MAIS Frase 2 COISAS </p> <p> MAIS Frase 3 COISAS </p> <div> MAIS Frase 4 COISAS </div>
