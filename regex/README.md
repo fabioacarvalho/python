@@ -24,8 +24,10 @@ print(re.findall(r'ama[do]*', texto2, flags=re.IGNORECASE))
 ```
 ```
 
-> __Para acessar os grupos será da segunite forma:__ <br> - _1 grupo (): \1_ <br> - _2 grupo () (): \1 \2_ <br> - _3 grupo () () (): \1 \2 \3_ <br> - _3 grupo (()) (): \1 \2 \3_
+> __Para acessar os grupos será da segunite forma:__ <br> - _1 grupo (): \1_ <br> - _2 grupo () (): \1 \2_ <br> - _3 grupo () () (): \1 \2 \3_ <br> - _3 grupo (()) (): \1 \2 \3_ 
 
+<br>
+\n
 
 - __{} numero de repetições ou entre x e y:__<br>
 
