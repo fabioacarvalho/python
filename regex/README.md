@@ -24,6 +24,9 @@ print(re.findall(r'ama[do]*', texto2, flags=re.IGNORECASE))
 ```
 ```
 
+> __Para acessar os grupos será da segunite forma:__ <br> - _1 grupo (): \1_ <br> - _2 grupo () (): \1 \2_ <br> - _3 grupo () () (): \1 \2 \3_ <br> - _3 grupo (()) (): \1 \2 \3_
+
+
 - __{} numero de repetições ou entre x e y:__<br>
 
 Por exemplo o número de um __CPF__ é representado por 11 digitos sendo ele separado por . e - para os últimos 2 digitos.<br>
