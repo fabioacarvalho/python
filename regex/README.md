@@ -7,7 +7,7 @@ Caso queria saber mais você pode acessar essa documentção __[REGEX PYTHON HOW
 
 Existem alguns tipos de metadados e abaixo estão alguns e seus significados:
 
-- [] conjunto:
+- __[] conjunto:__
 Este representa um conjunto de caracteres.
 
 ```
@@ -18,12 +18,12 @@ texto2 = 'João ama ser amado'
 print(re.findall(r'ama[do]*', texto2, flags=re.IGNORECASE))
 ```
 
-- () grupo ou retrovisores:
+- __() grupo ou retrovisores:__
 
 ```
 ```
 
-- {} numero de repetições ou entre x e y:
+- __{} numero de repetições ou entre x e y:__
 
 Por exemplo o número de um __CPF__ é representado por 11 digitos sendo ele separado por . e - para os últimos 2 digitos.
 
@@ -56,28 +56,28 @@ print(re.findall(r've{3}m{1,2}', texto, flags=re.I))
 ```
 
 
-- *
+- __*__
 
 ```
 ```
 
-- ?
+- __?__
 
 ```
 ```
 
-- ^
+- __^__
 
 ```
 ```
 
-- @
+- __@__
 
 
 ```
 ```
 
-- | OU:
+- __| OU:__
 
 
 ```
