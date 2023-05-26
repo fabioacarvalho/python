@@ -27,7 +27,7 @@ print(re.findall(r'ama[do]*', texto2, flags=re.IGNORECASE))
 > __Para acessar os grupos será da segunite forma:__ <br> - _1 grupo (): \1_ <br> - _2 grupo () (): \1 \2_ <br> - _3 grupo () () (): \1 \2 \3_ <br> - _3 grupo (()) (): \1 \2 \3_ 
 
 <br>
-\n
+
 
 - __{} numero de repetições ou entre x e y:__<br>
 
@@ -39,6 +39,8 @@ Exemplo 1:
 CPF = '147.852.001-55'
 print(re.findall(r'(([0-9]{3}\.){2}[0-9]{3}-[0-9]{2})', CPF))
 ```
+
+<br>
 
 Exemplo 2:<br>
 
@@ -61,27 +63,38 @@ print(re.findall(r've{3}m{1,2}', texto, flags=re.I))
 
 ```
 
+<br>
 
 - __*__<br>
 
 ```
 ```
 
+<br>
+
 - __?__<br>
 
 ```
 ```
+<br>
+
 
 - __^__<br>
 
 ```
 ```
 
+<br>
+
+
 - __@__<br>
 
 
 ```
 ```
+
+<br>
+
 
 - __| OU:__<br>
 
@@ -104,6 +117,8 @@ Não canso de ouvir a Maria:
 print(re.findall(r'jo{1,}ão{1,} | maria', texto, flags=re.I))
 
 ```
+
+<br>
 
 
 ## Funções
