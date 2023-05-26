@@ -7,8 +7,9 @@ Caso queria saber mais você pode acessar essa documentção __[REGEX PYTHON HOW
 
 Existem alguns tipos de metadados e abaixo estão alguns e seus significados:
 
-- __[] conjunto:__
+- __[] conjunto:__<br>
 Este representa um conjunto de caracteres.
+
 
 ```
 import re
