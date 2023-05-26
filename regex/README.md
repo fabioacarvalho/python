@@ -19,14 +19,14 @@ texto2 = 'João ama ser amado'
 print(re.findall(r'ama[do]*', texto2, flags=re.IGNORECASE))
 ```
 
-- __() grupo ou retrovisores:__
+- __() grupo ou retrovisores:__<br>
 
 ```
 ```
 
-- __{} numero de repetições ou entre x e y:__
+- __{} numero de repetições ou entre x e y:__<br>
 
-Por exemplo o número de um __CPF__ é representado por 11 digitos sendo ele separado por . e - para os últimos 2 digitos.
+Por exemplo o número de um __CPF__ é representado por 11 digitos sendo ele separado por . e - para os últimos 2 digitos.<br>
 
 Exemplo 1:
 
@@ -35,7 +35,7 @@ CPF = '147.852.001-55'
 print(re.findall(r'(([0-9]{3}\.){2}[0-9]{3}-[0-9]{2})', CPF))
 ```
 
-Exemplo 2:
+Exemplo 2:<br>
 
 ```
 import re
@@ -57,28 +57,28 @@ print(re.findall(r've{3}m{1,2}', texto, flags=re.I))
 ```
 
 
-- __*__
+- __*__<br>
 
 ```
 ```
 
-- __?__
+- __?__<br>
 
 ```
 ```
 
-- __^__
+- __^__<br>
 
 ```
 ```
 
-- __@__
+- __@__<br>
 
 
 ```
 ```
 
-- __| OU:__
+- __| OU:__<br>
 
 
 ```
