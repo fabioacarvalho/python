@@ -1,0 +1,11 @@
+M0_CGC,cnpj,CNPJ da Filial
+NNT_XTRANSF,id,ID Transferencia
+M0_FILIAL,razao_social,Nome da Filial
+NNS_XTPFRE,C,Tipo do Frete Utilizado Fixado 'C' – CIF
+NNS_COD,id,Código da Solicitação
+NNS_ESPECI,SPED,Espécie de Nota Fiscal
+NNS_DATA,data,Data de Emissão
+NNS_CLASS,1,Tipo de Documento de Entrada Fixado '1' – A CLASSIFICAR
+NNT_XNUM,id_pedido,ID Pedido
+NNS_FILIAL,razao_social,Filial do Sistema
+NNS_XMENNF,None,Mensagem para Nota
